@@ -1,8 +1,8 @@
-package com.ankit.minimum_notes.driver;
+package com.ankit.minimum_Notes_Required.driver;
 
 import java.util.Scanner;
 
-import com.ankit.minimum_notes.service.CountNotes;
+import com.ankit.minimum_Notes_Required.service.CountNotes;
 
 /**
  * This is a driver class which will take the input parameters, call required

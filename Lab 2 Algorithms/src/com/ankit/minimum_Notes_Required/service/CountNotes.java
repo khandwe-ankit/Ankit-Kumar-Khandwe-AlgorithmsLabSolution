@@ -1,4 +1,4 @@
-package com.ankit.minimum_notes.service;
+package com.ankit.minimum_Notes_Required.service;
 
 import com.ankit.sorting.MergeSort;
 

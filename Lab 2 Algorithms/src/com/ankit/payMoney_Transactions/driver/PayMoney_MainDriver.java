@@ -1,8 +1,8 @@
-package com.ankit.payMoney.driver;
+package com.ankit.payMoney_Transactions.driver;
 
 import java.util.Scanner;
 
-import com.ankit.payMoney.service.PayMoney_Service;
+import com.ankit.payMoney_Transactions.service.PayMoney_Service;
 
 /**
  * This is a driver class which will take the input parameters, call required

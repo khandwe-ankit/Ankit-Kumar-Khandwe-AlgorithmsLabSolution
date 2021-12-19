@@ -1,4 +1,4 @@
-package com.ankit.payMoney.service;
+package com.ankit.payMoney_Transactions.service;
 
 public class PayMoney_Service {
 
