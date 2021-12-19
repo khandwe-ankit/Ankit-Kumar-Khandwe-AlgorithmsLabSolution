@@ -2,7 +2,7 @@ package com.ankit.minimum_notes.service;
 
 import com.ankit.sorting.MergeSort;
 
-public class MinimumNotes_Service {
+public class CountNotes {
 	/**
 	 * Simple to understand but time complexity will high because of nested for &
 	 * while loops

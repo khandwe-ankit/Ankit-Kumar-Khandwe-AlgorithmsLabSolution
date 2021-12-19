@@ -2,7 +2,7 @@ package com.ankit.minimum_notes.driver;
 
 import java.util.Scanner;
 
-import com.ankit.minimum_notes.service.MinimumNotes_Service;
+import com.ankit.minimum_notes.service.CountNotes;
 
 /**
  * This is a driver class which will take the input parameters, call required
@@ -12,7 +12,7 @@ import com.ankit.minimum_notes.service.MinimumNotes_Service;
  *
  * @created_On 19-Dec-2021
  */
-public class MinimumNotes_MainDriver {
+public class CurrencyDenomRunner {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class MinimumNotes_MainDriver {
 		}
 		System.out.println("Enter the amount you want to pay");
 		int amt = sc.nextInt();
-		int[] noteCount = MinimumNotes_Service.minimumNotesRequired_1(arr, amt, size);
+		int[] noteCount = CountNotes.minimumNotesRequired_1(arr, amt, size);
 
 		for (int i = 0; i < noteCount.length; i++) {
 			int count = noteCount[i];
