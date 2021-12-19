@@ -2,7 +2,7 @@ package com.ankit.payMoney_Transactions.driver;
 
 import java.util.Scanner;
 
-import com.ankit.payMoney_Transactions.service.PayMoney_Service;
+import com.ankit.payMoney_Transactions.service.TransactionRequired;
 
 /**
  * This is a driver class which will take the input parameters, call required
@@ -27,7 +27,7 @@ public class PayMoney_MainDriver {
 		while (noOfTargets-- > 0) {
 			System.out.println("Enter the value of target");
 			int target = sc.nextInt();
-			int result = PayMoney_Service.noOfTransactionNeeded(arr, target);
+			int result = TransactionRequired.noOfTransactionNeeded(arr, target);
 			if (result != -1)
 				System.out.println("Target achieved after " + result + " transactions");
 			else

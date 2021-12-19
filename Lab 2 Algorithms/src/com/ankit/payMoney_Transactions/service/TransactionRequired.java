@@ -1,6 +1,6 @@
 package com.ankit.payMoney_Transactions.service;
 
-public class PayMoney_Service {
+public class TransactionRequired {
 
 	/**
 	 * This method will return the number of transaction required to achieve the
